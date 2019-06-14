@@ -8,6 +8,14 @@ const getBooks = function () {
   })
 }
 
+const deleteBook = id => {
+  return $.ajax({
+    url: config.apiUrl + '/books/' + id,
+    method: 'DELETE'
+  })
+}
+
 module.exports = {
-  getBooks
+  getBooks,
+  deleteBook
 }
