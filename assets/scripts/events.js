@@ -19,7 +19,7 @@ const onDeleteBook = event => {
 
 const addHandlers = () => {
   $('#getBooksButton').on('click', onGetBooks)
-  $('content').on('click', 'btn-danger', onDeleteBook)
+  $('.content').on('click', 'btn-danger', onDeleteBook)
 }
 
 module.exports = {
