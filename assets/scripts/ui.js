@@ -7,6 +7,11 @@ const getBooksSuccess = (data) => {
   $('.content').html(showBooksHtml)
 }
 
+const failure = (error) => {
+  console.error(error)
+}
+
 module.exports = {
-  getBooksSuccess
+  getBooksSuccess,
+  failure
 }
