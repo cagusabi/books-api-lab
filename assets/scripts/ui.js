@@ -1,5 +1,5 @@
 'use strict'
-const showBooksTemplate = require('../templates/book-listing.handlebars')
+const showBooksTemplate = require('./templates/book-listing.handlebars')
 
 const getBooksSuccess = (data) => {
   console.log(data)
