@@ -7,3 +7,7 @@ const getBooks = function () {
     url: config.apiUrl + '/books'
   })
 }
+
+module.exports = {
+  getBooks
+}
